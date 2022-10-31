@@ -15,6 +15,7 @@ export class AppComponent {
   }
 
   getRandomFact() {
-    this.http.get('https://cat-fact.herokuapp.com', {headers: {Accept: 'application/json'}}).subscribe(result => {this.fact = result})
+    this.http.get('https://meowfacts.herokuapp.com?count=1').subscribe((result: any) => {
+      this.fact = result.data[0]})
   }
 }
