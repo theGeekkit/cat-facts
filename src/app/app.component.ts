@@ -22,7 +22,7 @@ export class AppComponent {
   }
 
   getRandomPic() {
-    this.http.get('https://api.thecatapi.com/v1/images/search?limit=1').subscribe((result: any)=> {
+    this.http.get('https://api.thecatapi.com/v1/images/search').subscribe((result: any)=> {
       this.pic = result.data[0]})
   }
 }
