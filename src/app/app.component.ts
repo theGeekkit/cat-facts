@@ -9,7 +9,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 export class AppComponent {
   title = 'cat-facts';
   fact: any= {}
-  pic: any= {}
+  pic: any = {}
 
   constructor(private http: HttpClient) {
     this.getRandomFact()
@@ -24,5 +24,6 @@ export class AppComponent {
   getRandomPic() {
     this.http.get('https://api.thecatapi.com/v1/images/search').subscribe((result: any)=> {
       this.pic = result.data[0]})
+
   }
 }

@@ -1,8 +1,8 @@
 <app-header></app-header>
 
 <div>
-  <button (click)="getRandomFact()" (click)="getRandomPic()">Get a Cat Fact</button>
-  {{fact}}  {{pic}}
+  <button (click)="getRandomFact(); getRandomPic()">Get a Cat & a Fact</button>
+  {{fact}}  {{pic}} <img [src] = "pic" alt = "cat pic">
 </div>
 
 

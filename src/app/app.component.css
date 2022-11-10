@@ -4,5 +4,10 @@ div {
   font-size: 35px
 
 }
+button {
+  background-color: darkgoldenrod;
+  font-size: 40px;
+  color: black;
+}
 
 
