@@ -23,7 +23,6 @@ export class AppComponent {
 
   getRandomPic() {
     this.http.get('https://api.thecatapi.com/v1/images/search').subscribe((result: any)=> {
-      console.log(result)
     this.pic = result[0].url})
 
   }

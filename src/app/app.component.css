@@ -1,7 +1,12 @@
 div {
   align-items: center;
+  display: flex;
   text-shadow: 3px 3px 3px rgb(247, 243, 243);
-  font-size: 35px
+  font-size: 35px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
 
 }
 button {
@@ -9,5 +14,9 @@ button {
   font-size: 40px;
   color: black;
 }
+img {
+  max-width: 800px;
+}
+
 
 
