@@ -18,12 +18,13 @@ export class AppComponent {
 
   getRandomFact() {
     this.http.get('https://meowfacts.herokuapp.com?count=1').subscribe((result: any) => {
-      this.fact = result.data[0]})
+    this.fact = result.data[0]})
   }
 
   getRandomPic() {
     this.http.get('https://api.thecatapi.com/v1/images/search').subscribe((result: any)=> {
-      this.pic = result.data[0]})
+      console.log(result)
+    this.pic = result[0].url})
 
   }
 }
