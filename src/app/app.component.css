@@ -1,7 +1,8 @@
 div {
   align-items: center;
   display: flex;
-  text-shadow: 3px 3px 3px rgb(247, 243, 243);
+  color:black;
+  text-shadow: 3px 3px 3px darkgoldenrod;
   font-size: 35px;
   flex-wrap: wrap;
   flex-direction: column;
