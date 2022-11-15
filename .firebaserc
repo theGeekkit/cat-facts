@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cat-facts-aa579": {
+      "hosting": {
+        "cat-facts": [
+          "cat-facts-aa579"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cat-facts-aa579"
+  }
+}
