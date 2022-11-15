@@ -1,5 +1,7 @@
 body {
   background-image: url('https://i.postimg.cc/g0kQczPx/pexels-marko-blazevic-774731.jpg');
   background-size: 100vw;
+  background-size: 100vh;
+  background-repeat: no-repeat;
 
 }
